@@ -1,0 +1,116 @@
+
+.agec{
+  /* background-image: url(../ig.gif); */
+  color: #000000;
+  background-color: #eeeeee;
+  padding: 0px,0px;
+  background-attachment: fixed;
+  background-size:cover;
+  height:auto;
+  width: auto;
+  position: relative;
+  align-items: center;
+}
+.a{
+  color: #000000;
+}
+
+.copy{
+	background-color:#eeeeee;
+	/* margin-top: 20px; */
+  color: #000000;
+	/* border-color: #000033; */
+	border-width: 60px;
+	height: 20px;
+	height: 45px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+
+}
+
+.abc{
+	text-align: center;
+	color:#000000;
+}
+
+.abcd1{
+	/* text-align: center; */
+	color: skyblue;
+	position: relative;
+ /* width: 20%; */
+ /* float: left; */
+ padding: 5px;
+	/* float: right; */
+	/* margin-right: 250px; */
+
+}
+
+.ef{
+/* //	border-color: white; */
+/* //	position: relative; */
+/* //float: center; */
+/* margin-left: 810px;
+margin-top: 150px; */
+text-align: center;
+color: #000000;
+padding-top: 85px;
+/* //border-radius: 20px; */
+ /* //border-style: bold; */
+
+}
+#mm{
+	position: relative;
+	/* float: left; */
+	text-align: center;
+	/* //border-color: red; */
+	/* //border-width: 30px; */
+	/* margin-left: 200px; */
+	/* //background-color: blue; */
+}
+
+#nn{
+	position: relative;
+	text-align: center;
+	/* float: right; */
+	/* margin-right:200px; */
+	/* //background-color: red; */
+
+}
+
+#pp{
+	font-size: 15px;
+	font-family: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.columni {
+  float: left;
+  width: 50%;
+	position: relative;
+  padding: 10px;
+  height: 150px;
+		color: #000000;
+}
+
+.rowi:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .columni {
+    width: 100%;
+  }
+}
+
+.abcd{
+	text-align: center;
+	/* color: skyblue; */
+	position: relative;
+	/* float: left; */
+	/* margin-left: 250px; */
+
+}

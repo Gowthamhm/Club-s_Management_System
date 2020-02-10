@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    /* background: #F17563; */
+    font-family: Open Sans;
+    font-size: 50px;
+  	color: #222;
+    text-align: center;
+}
+
+.l{
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+            /* background: #eeeeee; */
+}
+.l1{
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+            /* background: #eeeeee; */
+}
+.l2{
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 45%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+     /* background: #eeeeee; */
+}
+.l3{
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    display: block;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+            /* background: #eeeeee; */
+}
+
+.card {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 15%;
+    top: 30%;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: all 600ms;
+    transition: all 600ms;
+    z-index: 30;
+            /* background: #eeeeee; */
+}
+
+    .card div {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        /* background: #FFF; */
+                background: #eeeeee;
+        text-align: center;
+        line-height: 200px;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        border-radius: 2px;
+    }
+
+    .card .back {
+        background: #eeeeee;
+        /* color: #FFF; */
+        -webkit-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+        font-size: 30px;
+        text-align: center;
+        /* font-weight: 10px; */
+
+    }
+
+label:hover .card {
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg);
+    box-shadow: 0 20px 20px rgba(50,50,50,.2);
+}
+
+input {
+    display: none;
+}
+
+:checked + .card {
+    transform: rotateX(180deg);
+    -webkit-transform: rotateX(180deg);
+}
+
+label:hover :checked + .card {
+    transform: rotateX(160deg);
+    -webkit-transform: rotateX(160deg);
+    box-shadow: 0 20px 20px rgba(255,255,255,.2);
+}

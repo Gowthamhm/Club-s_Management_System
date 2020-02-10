@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+*{
+    /* color: #ffffff; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    /* background-image: linear-gradient(170deg, #b621fe, #1fd1f9); */
+    /* background-image: linear-gradient(to right top, #1f1e1f, #2e2b33, #353b4b, #354e62, #2c6274, #276471, #24666e, #256869, #245858, #214948, #1e3a39, #1a2c2b); */
+background-image: url(../iste/img9.gif);
+background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flexbox;
+    display: flex;
+     /* background-image: linear-gradient(-150deg, #b621fe, #1fd1f9); */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    z-index: 1;
+}
+.signup-box {
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    /* opacity: 0.1; */
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.15);
+}
+.signup-box1 {
+    width: 400px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    /* opacity: 0.1; */
+    border-radius: 40px;
+    padding: 40px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.15);
+}
+.title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    /* color: #ffffff; */
+    /* color: #000000; */
+    margin: 20px 0 7px 0;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    position: relative;
+}
+.row{
+  /* text-align: center; */
+  align-content: center;
+}
+.col {
+    /* float: left; */
+    width: 100%;
+}
+.textboxtop {
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #666666;
+    /* opacity: 0.1; */
+}
+.textboxtop input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 0;
+    color: #000000;
+    font-weight: bold;
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #666666;
+    margin: 16px 0;
+    /* opacity: 0.1; */
+}
+
+.textbox1 select{
+    /* width: 100%;
+    overflow: hidden;
+    text-align: center;
+      border-radius: 50px;
+      padding: 12px; */
+      width: 90%;
+      border-radius: 50px;
+      padding: 12px;
+      outline: none;
+      border: none;
+      font-size: 20px;
+      /* font-weight: 60px;; */
+      cursor: pointer;
+      text-align: center;
+      /* background-color: #ffffff; */
+      /* margin: 40px 0; */
+      /* opacity: 0.1; */
+      /* color: white; */
+    /* border-bottom: 1px solid #666666; */
+    /* margin: 16px 0; */
+    /* opacity: 0.1; */
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 8px 0;
+    color: #333333;
+    font-weight: bold;
+}
+.textboxtop label{
+  padding-top: 6px;
+}
+.button input{
+    width: 90%;
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 40px 0;
+    /* opacity: 0.1; */
+    color: white;
+    background-image: linear-gradient(to right top, #1f1e1f, #2e2b33, #353b4b, #354e62, #2c6274, #276471, #24666e, #256869, #245858, #214948, #1e3a39, #1a2c2b);
+}
+.button1 input{
+    width: 50%;
+    border-radius: 50px;
+    padding: 9px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 40px 0;
+    /* opacity: 0.1; */
+    color: white;
+    background-image: linear-gradient(to right top, #1f1e1f, #2e2b33, #353b4b, #354e62, #2c6274, #276471, #24666e, #256869, #245858, #214948, #1e3a39, #1a2c2b);
+}
+.button input:hover {
+/* background-image: linear-gradient(to right top, #1f1e1f, #2e2b33, #353b4b, #354e62, #2c6274, #276471, #24666e, #256869, #245858, #214948, #1e3a39, #1a2c2b); */
+}
+.cmd{
+   position:absolute;
+   /* top:0px; */
+   left:0%;
+   width:100%;
+   /* height: auto; */
+   height:25px;
+   line-height:40px;
+   margin:0;
+   padding:0;
+     /* transform: translate(-50%, -50%); */
+}
+.edit{
+  text-align: center;
+  font-size: 30px;
+  /* padding-top: -40px; */
+}
+.edit input{
+  width: auto;
+  height: 25px;
+}

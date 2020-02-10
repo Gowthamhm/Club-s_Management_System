@@ -1,0 +1,82 @@
+
+body{
+background-image: url(ig.gif);
+	/* //border-style: solid;
+	//border-color: blue; */
+	/* height: 100vh; */
+	/* width: 100%; */
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat: no-repeat;
+	position: relative;
+
+}
+.copy{
+	//background-color:white;
+	margin-top: 30px;
+	border-color: #000033;
+	border-width: 60px;
+	height: 20px;
+	height: 45px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+
+}
+
+#abc{
+
+	text-align: center;
+	color: yellow;
+}
+
+#abcd{
+	text-align: center;
+	color: skyblue;
+	position: relative;
+	float: right;
+	margin-right: 250px;
+
+}
+
+#ef{
+/* //	border-color: white; */
+/* //	position: relative; */
+/* //float: center; */
+margin-left: 810px;
+margin-top: 150px;
+/* //border-radius: 20px; */
+ /* //border-style: bold; */
+
+}
+#mm{
+	position: relative;
+	float: left;
+	//border-color: red;
+	//border-width: 30px;
+	margin-left: 590px;
+	//background-color: blue;
+}
+
+#nn{
+	position: relative;
+	float: right;
+	margin-right:590px;
+	//background-color: red;
+
+}
+
+#pp{
+	font-size: 15px;
+	font-family: none;
+}
+
+
+#abcd1{
+	text-align: center;
+	color: skyblue;
+	position: relative;
+	float: left;
+	margin-left: 250px;
+
+}

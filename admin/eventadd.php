@@ -2,7 +2,7 @@
 include '../config.php';
 // session_start();
 include '../session.php';
-// include 'config.php';
+include '../config_aqg.php';
 include 'error.php';
 include '../main.php';
 use PHPMailer\PHPMailer\PHPMailer;
@@ -28,6 +28,10 @@ $time=$_POST['time'];
 $cont=$_POST['contact'];
 $number=$_POST['number'];
   $eva = "INSERT INTO event(c_name,event_name)VALUES ('$club','$ename')";
+    $eveaqg = "INSERT INTO event(c_name,event_name)VALUES ('$club','$ename')";
+    if(mysqli_query($connaqg,$eveaqg)){
+      echo "<script>alert(inserted to aqg event table);</script>";
+    }
     if (mysqli_query($conn,$eva)) {
       $evad="INSERT INTO event_detail(event_name,date,time,location,description,contact,number)
       VALUES ('$ename','$date','$time','$loc',\"$desc\",'$cont','$number')";

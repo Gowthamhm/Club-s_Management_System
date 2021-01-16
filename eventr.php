@@ -3,15 +3,15 @@ include 'config.php';
 // include 'config.php';
 if(isset($_POST['submit']))
 {
-	$re="SELECT * FROM event";
+	$re="SELECT * FROM event ";
 	if ($res=mysqli_query($conn,$re)) {
-if ($row=mysqli_fetch_array($res)) {
+while ($row=mysqli_fetch_array($res)) {
 	$dbclub=$row['c_name'];
 	$dbevent=$row['event_name'];
+	echo "$dbclub,$dbevent";
 if ($_POST['ename']==$dbevent && $_POST['club']==$dbclub) {
 	$sql = "INSERT INTO event_reg(event_name,name,usn,gender,branch,sem,c_name,email,phone)
 VALUES ('$_POST[ename]','$_POST[name]','$_POST[usn]','$_POST[gender]','$_POST[branch]','$_POST[sem]','$_POST[club]','$_POST[email]','$_POST[number]')";
-
 if ($conn->query($sql) === TRUE) {
 		echo "<script>alert('Registered Successfully');</script>";
 		header('location: sucr.php');
@@ -33,7 +33,7 @@ else {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/main.css" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <title>EVENT REGISTRATION</title>
 </head>

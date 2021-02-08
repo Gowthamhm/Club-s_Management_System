@@ -20,12 +20,13 @@
 
 # Note
 
-1. The adminname and password of admin users are stored in table \`admin\`. 
+1. The adminname and password of admin users are stored in table `admin`. 
 		or
-| club_name       | user_name  | password   |
-+-----------------+------------+------------+ 
-| ISTE            | admin      | admin      |
-| ROTARACT        | admin2     | admin      |
-| GEON            | admin4     | admin      |
-| GLUE            | admin5     | admin      |
----------------------------------------------
+| club_name      | user_name  | password |
++--------------+-------------+-------------+ 
+| ISTE            | admin     | admin      |
+| ROTARACT  | admin2   | admin      |
+| GEON          | admin4   | admin      |
+| GLUE           | admin5   | admin      \
+-------------------------------------------------
+

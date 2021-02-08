@@ -1,3 +1,0 @@
-
-
-# Club`s Mangement System
